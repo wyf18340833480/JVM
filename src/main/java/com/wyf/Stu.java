@@ -9,6 +9,6 @@ public class Stu extends Person {
     private String addr;
     private String nums;
     public String toString (){
-        return this.id + this.name + this.date+"";
+        return this.id + this.name + this.date+ this.addr + "";
     }
 }
